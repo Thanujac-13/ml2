@@ -26,7 +26,7 @@ st.markdown("""
 st.title("🚀 Smart Insurance AI Dashboard")
 
 # ---------------- LOAD DATA ----------------
-df = pd.read_csv(r"C:\Users\Thanuja C\OneDrive\Desktop\insurance_dataset.csv")
+df = pd.read_csv("insurance_dataset.csv")
 
 
 # ---------------- PREPROCESS ----------------
